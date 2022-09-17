@@ -1,0 +1,14 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    margin: 0;
+    border: 0;
+}
+
+.single-div {
+    height: 16px;
+    width: 16px;
+    background-color: aliceblue;
+}
