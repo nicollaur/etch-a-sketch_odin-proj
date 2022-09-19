@@ -1,14 +1,27 @@
 body {
-    background-color: blueviolet;
+    display: flex;
+    gap: 30px;
+}
+
+.user-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
 }
 
 .container {
-    margin: 0;
-    border: 0;
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
 }
 
 .single-div {
-    height: 16px;
-    width: 16px;
-    background-color: aliceblue;
+    background-color: chartreuse;
+}
+
+.single-div-color {
+    background-color: black;
 }
